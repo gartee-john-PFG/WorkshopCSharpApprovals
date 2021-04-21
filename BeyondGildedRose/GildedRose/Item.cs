@@ -32,16 +32,5 @@ namespace GildedRose
             Owner = owner;
             Realm = realm;
         }
-
-        public override string ToString(){
-            return  "Name: " + Name
-                    + " SellIn: " + SellIn.ToString() + "," 
-                    + " Quality: " + Quality.ToString() + "," 
-                    + " Type: " + Type + "," 
-                    + " Weight: " + Weight.ToString() + "," 
-                    + " Value: " + Value.ToString() + ",\n" 
-                    + " Owner: " + Owner.ToString() + ",\n" 
-                    + " Realm: " + Realm.ToString();
-        }
     }
 }

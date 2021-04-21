@@ -14,13 +14,5 @@ namespace GildedRose
             SkillClass = skillClass;
             Race = race;
         }
-        public override string ToString(){
-            return "Name: " + Name + ","
-            + "Gender: " + Gender + ","
-            + "Level: " + Level.ToString() + ","
-            + "SkillClass: " + SkillClass + ","
-            + "Race: " + Race;
-
-        }
     }
 }
